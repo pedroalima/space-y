@@ -5,15 +5,30 @@
         width: 40px;
     }
 
-    .custom-icon {
-        color: white;
+    .custom-toggle {
+        .navbar-toggler-icon {
+            background-image: url(../../images/shared/icon-hamburger.svg);
+            width: 24px;
+            height: 21px;
+        }
     }
 
     #navbarSupportedContent {
         ul {
+            position: absolute;
+            right: -16px;
+
+            width: 60%;
+            height: 100vh;
+
             background: rgb(255, 255, 255, 0.04);
             backdrop-filter: blur(20px);
-            width: 60%;
+
+            @media screen and (min-width: 768px) {
+                position: relative;
+                width: auto;
+                height: auto;
+            }
         }
     }
 }
