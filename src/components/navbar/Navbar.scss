@@ -1,0 +1,19 @@
+#navbar {
+    background: rgb(255, 255, 255, 0);
+
+    img {
+        width: 40px;
+    }
+
+    .custom-icon {
+        color: white;
+    }
+
+    #navbarSupportedContent {
+        ul {
+            background: rgb(255, 255, 255, 0.04);
+            backdrop-filter: blur(20px);
+            width: 60%;
+        }
+    }
+}
