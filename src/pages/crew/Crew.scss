@@ -1,0 +1,10 @@
+#crew {
+    height: 100vh;
+    background-image: url("../../images/crew/background-crew-mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @media screen and ( min-width: 768px ) {
+        background-image: url("../../images/crew/background-crew-desktop.jpg");
+    }
+}

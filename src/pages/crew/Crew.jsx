@@ -2,8 +2,8 @@ import './Crew.scss'
 
 function Crew() {
     return (
-        <div>
-            <h1>Crew</h1>
+        <div id='crew'>
+            <h2>Crew</h2>
             <p>Conteudo</p>
         </div>
     )
