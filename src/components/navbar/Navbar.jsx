@@ -20,16 +20,16 @@ function Navbar() {
         <div className="collapse navbar-collapse justify-content-md-end" id="navbarSupportedContent">
             <ul className="nav flex-column pl-2 py-5 flex-md-row p-md-3 px-md-5">
                 <li className="nav-item">
-                    <Link className="nav-link font-primary-color text-uppercase font-letter-space font-primary-color font-weight-light px-md-4" to="/"><span className='font-weight-bold'>00</span> Home<span className="sr-only">(current)</span></Link>
+                    <Link className="nav-link active font-secondary-family font-primary-color font-letter-space text-uppercase font-weight-lighter px-md-4" to="/"><span className='font-weight-bold'>00</span> Home<span className="sr-only">(current)</span></Link>
                 </li>
-                <li class="nav-item">
-                    <Link className="nav-link font-primary-color font-primary-color font-letter-space text-uppercase px-md-4" to="/destination"><span className='font-weight-bold'>01</span> Destination</Link>
+                <li className="nav-item">
+                    <Link className="nav-link font-secondary-family font-primary-color font-letter-space text-uppercase font-weight-lighter px-md-4" to="/destination"><span className='font-weight-bold'>01</span> Destination</Link>
                 </li>
-                <li class="nav-item">
-                    <Link className="nav-link font-primary-color font-primary-color font-letter-space text-uppercase px-md-4" to="/crew"><span className='font-weight-bold'>02</span> Crew</Link>
+                <li className="nav-item">
+                    <Link className="nav-link font-secondary-family font-primary-color font-letter-space text-uppercase font-weight-lighter px-md-4" to="/crew"><span className='font-weight-bold'>02</span> Crew</Link>
                 </li>
-                <li class="nav-item">
-                    <Link className="nav-link font-primary-color font-primary-color font-letter-space text-uppercase px-md-4" to="/technology"><span className='font-weight-bold'>03</span> Technology</Link>
+                <li className="nav-item">
+                    <Link className="nav-link font-secondary-family font-primary-color font-letter-space text-uppercase font-weight-lighter px-md-4" to="/technology"><span className='font-weight-bold'>03</span> Technology</Link>
                 </li>
             </ul>
         </div>

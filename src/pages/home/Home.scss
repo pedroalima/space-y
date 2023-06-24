@@ -7,4 +7,34 @@
     @media screen and ( min-width: 768px ) {
         background-image: url("../../images/home/background-home-desktop.jpg");
     }
+
+    .subtitle-custom{
+        @media screen and ( min-width: 768px ) {
+            font-size: 23px;
+        }
+    }
+
+    .title-custom {
+        @media screen and ( min-width: 768px ) {
+            font-size: 110px;
+        }
+    }
+        
+    #explorer {
+        .jumbotron {
+            padding: 3.5rem 0rem;
+
+            @media screen and ( min-width: 768px ) {
+                padding: 6rem 0rem;
+            }
+
+            span {
+                font-size: 18px;
+
+                @media screen and ( min-width: 768px ) {
+                    font-size: 30px;
+                }
+            }
+        }
+    }
 }
