@@ -1,6 +1,3 @@
-// import Navbar from './components/navbar/Navbar'
-// import { Outlet } from 'react-router-dom'
-
 import Root from './components/Root';
 import Home from './pages/home/Home'
 import Destination from './pages/destination/Destination'
