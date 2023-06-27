@@ -20,7 +20,7 @@ function Navbar() {
         <div className="collapse navbar-collapse justify-content-md-end" id="navbarSupportedContent">
             <ul className="nav flex-column pl-2 py-5 flex-md-row justify-content-md-center p-md-3 px-md-5">
                 <li className="nav-item">
-                    <Link className="nav-link active font-secondary-family font-primary-color font-letter-space text-uppercase font-weight-lighter px-md-4" to="/"><span className='font-weight-bold'>00</span> Home<span className="sr-only">(current)</span></Link>
+                    <Link className="nav-link font-secondary-family font-primary-color font-letter-space text-uppercase font-weight-lighter px-md-4" to="/"><span className='font-weight-bold'>00</span> Home<span className="sr-only">(current)</span></Link>
                 </li>
                 <li className="nav-item">
                     <Link className="nav-link font-secondary-family font-primary-color font-letter-space text-uppercase font-weight-lighter px-md-4" to="/destination"><span className='font-weight-bold'>01</span> Destination</Link>

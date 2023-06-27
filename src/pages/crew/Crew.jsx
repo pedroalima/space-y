@@ -63,36 +63,8 @@ function Crew() {
                                         </section>
                                     </div>
                                 </div>
-
-
                             </div>
                         </div>
-
-                        {/* <div className="card mb-3" >
-                            <div className="row no-gutters">
-                                <div className="col-md-4">
-                                    <img src={imageDouglas} alt="Douglas Hurley" />
-                                </div>
-                                <div className="col-md-8">
-                                    <div className="card-body">
-                                        <h6 class="card-subtitle mb-2 text-muted">{data.crew[0].role}</h6>
-                                        <h5 className="card-title">{data.crew[0].name}</h5>
-                                        <p className="card-text">{data.crew[0].bio}</p>
-
-                                        <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> */}
-
-                        {/* <div className='row justify-content-md-around'>
-                            <div className='col-12 col-md-5 text-center pt-4'>
-                                
-                            </div>
-                            <div className='col-12 col-md-5'>
-                                
-                            </div>
-                        </div> */}
                     </div>
                 </div>
             </div>

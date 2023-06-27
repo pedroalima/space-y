@@ -14,7 +14,7 @@ function Mars() {
         </div>
         <div className='col-12 col-md-5'>
             <section className="jumbotron bg-transparent py-0 px-0 py-md-0 my-md-0">
-                <ul className="nav justify-content-center justify-content-md-start">
+                <ul className="nav justify-content-center justify-content-md-start py-3">
                     <li className="nav-item">
                         <NavLink to="/destination/moon" className="nav-link link-custom font-secondary-family font-secondary-color font-letter-space text-uppercase pl-md-0 pr-md-4">Moon</NavLink>
                     </li>
@@ -29,7 +29,7 @@ function Mars() {
                     </li>
                 </ul>
                 <h3 className="display-4 pt-3 font-primary-family text-uppercase font-primary-color font-letter-space">{data.destinations[1].name}</h3>
-                <p className='font-secondary-color font-tertiary-family pb-4 pb-md-5 border-bottom border-secondary'>{data.destinations[1].description}</p>
+                <p className='font-secondary-color font-tertiary-family pb-4 pb-md-5 border-bottom border-secondary mars-description'>{data.destinations[1].description}</p>
                 <ul className='list-group flex-md-row justify-content-start'>
                     <li className='list-group-item bg-transparent pl-md-0 border-0'>
                         <h6 className='font-secondary-family font-secondary-color font-letter-space text-uppercase'>Avg. distance</h6>

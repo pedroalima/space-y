@@ -1,10 +1,66 @@
 #technology {
-    height: 100vh;
     background-image: url("../../images/technology/background-technology-mobile.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 
     @media screen and ( min-width: 768px ) {
         background-image: url("../../images/technology/background-technology-desktop.jpg");
+    }
+
+    .title-custom {
+        font-size: 16px;
+        letter-spacing: 3px;
+
+        @media screen and ( min-width: 768px ) {
+            font-size: 25px;
+            letter-spacing: 6px;
+        }
+    }
+
+    .link-custom {
+        font-size: 16px;
+        color: #FFFFFF;
+        border: 1px solid #7a7a7a;
+
+        @media screen and ( min-width: 768px ) {
+            font-size: 32px;
+        }
+    }
+
+    .image-custom {
+        width: 100%;
+    
+        @media screen and ( min-width: 768px ) {
+            height: 58.5vh;
+        }
+    }
+
+    .role-custom {
+        font-size: 14px;
+
+        @media screen and ( min-width: 768px ) {
+            font-size: 16px;
+        }
+    }
+
+    .name-custom {
+        font-size: 24px;
+
+        @media screen and ( min-width: 768px ) {
+            font-size: 53px;
+        }
+    }
+
+    .bio-custom{
+        font-size: 15px;
+
+        @media screen and ( min-width: 768px ) {
+            font-size: 18px;
+        }
+    }
+
+    .active {
+        background: #FFFFFF;
+        color: #000000;
     }
 }

@@ -14,7 +14,7 @@ function Europa() {
         </div>
         <div className='col-12 col-md-5'>
             <section className="jumbotron bg-transparent py-0 px-0 py-md-0 my-md-0">
-                <ul className="nav justify-content-center justify-content-md-start">
+                <ul className="nav justify-content-center justify-content-md-start py-3">
                     <li className="nav-item">
                         <NavLink to="/destination/moon" className="nav-link link-custom font-secondary-family font-secondary-color font-letter-space text-uppercase pl-md-0 pr-md-4">Moon</NavLink>
                     </li>
@@ -22,7 +22,7 @@ function Europa() {
                         <NavLink to="/destination/mars" className="nav-link link-custom font-secondary-family font-secondary-color font-letter-space text-uppercase pl-md-0 pr-md-4">Mars</NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink to="/destination/europa" className="nav-link link-custom font-secondary-family font-secondary-color font-letter-space text-uppercase pl-md-0 pr-md-4">Europa</NavLink>
+                        <NavLink to="/destination/europa" className="nav-link active link-custom font-secondary-family font-secondary-color font-letter-space text-uppercase pl-md-0 pr-md-4">Europa</NavLink>
                     </li>
                     <li className="nav-item">
                         <NavLink to="/destination/titan" className="nav-link link-custom font-secondary-family font-secondary-color font-letter-space text-uppercase pl-md-0 pr-md-4">Titan</NavLink>
