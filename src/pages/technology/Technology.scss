@@ -27,13 +27,23 @@
         }
     }
 
-    .image-custom {
-        width: 100%;
-    
+    .banner-image {
+
         @media screen and ( min-width: 768px ) {
-            height: 58.5vh;
+            overflow-x: visible;
+        }
+
+        .image-custom {
+            width: 100%;
+
+            @media screen and ( min-width: 768px ) {
+                width: 515px;
+                margin-left: 1vw;
+                height: 58.5vh;
+            }
         }
     }
+    
 
     .role-custom {
         font-size: 14px;

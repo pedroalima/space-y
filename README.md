@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+![#](./public/logo.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bem-vindo ao Space Y, uma single page application(SPA) de uma empresa de viagens espaciais.
 
-## Available Scripts
+Projeto construído a partir do desafio disponível da [FrontendMentor](https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3). Utilizei o design fornecido pela plataforma e elaborei a página da maneira mais fidedigna possível, desenvolvido com React.js e Bootstrap. E esse foi o meu resultado final 💻<https://space-y-taupe.vercel.app/>.
 
-In the project directory, you can run:
+![#](./public/frame.png)
 
-### `npm start`
+> Veja o comparativo da minha solução com o resultado esperado, [clicando aqui!](https://????)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+</br>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🎯 Objetivos
 
-### `npm test`
+<!-- Os usuários devem ser capazes de:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+> - Visualizar o layout ideal para o site, dependendo do tamanho da tela do dispositivo
 
-### `npm run build`
+O objetivo é replicar o design fornecido o mais fielmente possível, garantindo que a página seja responsiva e se adapte ao tamanho da tela em que é exibida. Além disso, os usuários podem gerar links encurtados -->
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+</br>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🔧 Propriedades e Tecnologias
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+> - Vite
+> - React
+> - Bootstrap 4
+> - SASS
+> - Mobile-first
+> - Semântica HTML
 
-### `npm run eject`
+</br>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🧠 Meu aprendizado
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<!-- > - Bootstrap 4
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+O Bootstrap é um framework popular e poderoso que permite aos desenvolvedores criar interfaces responsivas com facilidade. Nesta semana dediquei a me aprofundar na ferramenta, para explorar todo seu potencial.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+React.js
 
-## Learn More
+```js
+...
+<footer className='container-fluid bg-quaternary-color' id='footer'>
+  <div className='container'>
+      <div className="row justify-content-center justify-content-md-start pb-5 py-md-5">
+          <div className="col-12 text-center py-5 col-md-4 text-md-left px-md-0 py-md-0">
+              <img src={logoWhite} alt="Logo" />
+          </div>...
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+O Bootstrap funciona aplicando classes diretamente nos componentes, no exemplo acima vemos que ele oferece um sistema de grid flexível, adaptando-se perfeitamente a diferentes tamanhos de tela e dispositivos, composto pelas classes "container", "row" e "col", todas podem ser usadas individualmente em qualquer breakpoint desejado, no exemplo temos as classes: col-12 e col-md-4. O "col-12" significa que a "div" receberá por padrão a largura de 12 frações (ou seja, no mobile receberá a largura máxima do contêiner), e o "col-md-4" representa que a mesma passará a ter 4 frações de largura, mas apenas quando atingir p breakpoint "md" (768px).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```js
+...
+<a
+  className="btn font-primary-color bg-button-color rounded-pill btn-lg px-4 px-md-5 py-md-3 font-weight-bold"
+  href="#"
+  role="button"
+>Get Started</a>
+...
+```
 
-### Code Splitting
+Com uma ampla gama de componentes prontos para uso, como botões, menus, formulários e carrosséis, mas ainda assim com muitos utilitários que permitem a criação de novos componentes e a personalização dos que já existem, como, por exemplo alterar a padding no eixo x com "px-4". O Bootstrap agiliza o processo de desenvolvimento, economizando tempo e esforço. -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+</br>
 
-### Analyzing the Bundle Size
+## 💻 Rodando o projeto
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Para conferir a versão final é só acessar o link: 💻<https://space-y-taupe.vercel.app/>.
 
-### Making a Progressive Web App
+</br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Autor
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- LinkedIn - [Pedro A. Lima](https://www.linkedin.com/in/pedroalima6/)
